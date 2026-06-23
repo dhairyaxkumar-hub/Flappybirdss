@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird | Smooth & Professional</title>
+    <link rel="stylesheet" href="styles.css">
+<meta name="google-adsense-account" content="ca-pub-9708694981664312">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+        <div class="ui-overlay">
+            <div id="startScreen" class="screen">
+                <h1>FLAPPY BIRD</h1>
+                <p>Press SPACE or Click to Flap</p>
+                <button id="startBtn">START GAME</button>
+            </div>
+            <div id="gameOverScreen" class="screen hidden">
+                <h2>GAME OVER</h2>
+                <p>Score: <span id="finalScore">0</span></p>
+                <p>Best: <span id="bestScore">0</span></p>
+                <button id="restartBtn">PLAY AGAIN</button>
+            </div>
+            <div id="gameUI" class="hidden">
+                <div id="score">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
